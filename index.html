@@ -532,8 +532,8 @@ document.getElementById('generate').addEventListener('click', generate);
 // ---- PDF export: one year per A4 portrait page, 5 years starting this year ----
 function dayColors(type) {
   switch (type) {
-    case 'work':   return { bg: [220, 232, 223], text: [92, 123, 102], border: [92, 123, 102] };
-    case 'off':    return { bg: [243, 225, 231], text: [168, 101, 124], border: [168, 101, 124] };
+    case 'off':   return { bg: [220, 232, 223], text: [92, 123, 102], border: [92, 123, 102] };
+    case 'work':    return { bg: [243, 225, 231], text: [168, 101, 124], border: [168, 101, 124] };
     case 'random': return { bg: [227, 237, 244], text: [92, 133, 170], border: [92, 133, 170] };
     default:       return { bg: null, text: [183, 189, 184], border: null };
   }
